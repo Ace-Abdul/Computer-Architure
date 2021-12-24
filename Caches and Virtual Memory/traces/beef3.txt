@@ -1,0 +1,2 @@
+store 0x1 4 deadbeef
+load 0x0 4

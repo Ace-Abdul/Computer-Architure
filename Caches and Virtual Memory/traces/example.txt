@@ -1,0 +1,7 @@
+store 0xd53170 4 7d2f13ac
+load  0xd53172 1
+store 0xd53170 2 f0b1
+store 0x1a25bb 2 c77a
+load  0xd53170 4
+load  0x12 2
+store 0x23 8 d687eb9f1bc687ec

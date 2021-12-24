@@ -1,0 +1,16 @@
+Trace files for use with the cachesim program.
+
+beef1.txt    : A simple loads/store, no offset
+beef2.txt    : A simple loads/store, with offset
+beef3.txt    : A simple loads/store, with offset
+border1.txt  : Playing on the edge of 64-byte blocks, loads only
+border2.txt  : Playing on the edge of 64-byte blocks, with stores 
+captest1.txt : A set of accesses to push the associativity and capacity limits, assuming block size 128, capacity ~1-2 kB, loads only
+captest2.txt : A set of accesses to push the associativity and capacity limits, assuming block size 128, capacity ~1-2 kB, loads and stores
+random1.txt  : A small random trace
+random2.txt  : A large random trace
+walk1.txt    : Simple walk by 4 at a time, access size=1, loads only
+walk2.txt    : Simple walk by 4 at a time, access size=4, loads only
+walk3.txt    : Simple walk by 4 at a time, access size=4, store then load
+walk4.txt    : Simple walk by 4 at a time, access size=4, load then store
+example.txt  : Simple example from the write-up

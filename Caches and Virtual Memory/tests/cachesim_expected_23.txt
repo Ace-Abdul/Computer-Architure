@@ -1,0 +1,16 @@
+store 0x0 miss
+load 0x0 miss 12345678
+store 0x4 hit
+load 0x4 hit c0debeef
+store 0x8 hit
+load 0x8 hit 11223344
+store 0xc hit
+load 0xc hit 55667788
+store 0x10 miss
+load 0x10 miss 99aabbcc
+store 0x14 hit
+load 0x14 hit ddeeff00
+store 0x18 hit
+load 0x18 hit feedcafe
+store 0x1c hit
+load 0x1c hit ece25001

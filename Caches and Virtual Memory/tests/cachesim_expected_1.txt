@@ -1,0 +1,2 @@
+store 0x0 miss
+load 0x1 miss adbeef00

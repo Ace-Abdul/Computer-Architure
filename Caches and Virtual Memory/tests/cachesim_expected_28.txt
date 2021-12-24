@@ -1,0 +1,16 @@
+load 0x0 miss 00000000
+store 0x0 hit
+load 0x4 hit 00000000
+store 0x4 hit
+load 0x8 hit 00000000
+store 0x8 hit
+load 0xc hit 00000000
+store 0xc hit
+load 0x10 miss 00000000
+store 0x10 hit
+load 0x14 hit 00000000
+store 0x14 hit
+load 0x18 hit 00000000
+store 0x18 hit
+load 0x1c hit 00000000
+store 0x1c hit

@@ -1,0 +1,1000 @@
+load 0x432e miss 0000
+store 0xcb miss
+store 0x8267 miss
+load 0xa800 miss 00
+store 0x432e hit
+store 0xa202 miss
+load 0x803 miss 0000000000000000
+store 0x8065 miss
+store 0x60ca miss
+store 0x8000 miss
+load 0x4c8 miss 0000000000000000
+store 0xa001 miss
+load 0x6603 miss 00000000
+load 0x412d miss 00
+load 0x2866 miss 0000000000000000
+load 0x603 miss 00
+store 0x6402 miss
+load 0xaac9 miss 00000000
+load 0xab2e miss 0000000000000000
+load 0xa12f miss 0000000000000000
+store 0x2c8 miss
+load 0x4603 miss 0000000000000000
+load 0x22c9 miss 0000000000000000
+load 0x20cb miss 0000
+load 0x1 miss 0000000000000000
+store 0x812d miss
+load 0x82c8 miss 00
+store 0xa2cb miss
+store 0x4867 miss
+store 0x4a01 miss
+store 0x432f hit
+load 0x2401 miss 0000
+load 0x52d miss 0000
+load 0x4865 miss 0000b34f00000000
+load 0x40c9 miss 0000
+load 0x72d miss 0000
+store 0xa12c hit
+store 0x4401 miss
+load 0x28c8 hit 00
+store 0x2ca miss
+store 0x2466 hit
+load 0x4400 miss 0016000000000000
+store 0x22c8 hit
+load 0x24cb hit 00000000
+load 0x6003 miss 00
+store 0x252f miss
+store 0x692c miss
+store 0xaa65 hit
+load 0x64c9 miss 00
+store 0x2b2e miss
+load 0x852c miss 0000000000000000
+store 0x812f miss
+load 0x4465 hit 0000
+load 0x6400 hit 00
+store 0x2664 miss
+store 0x62c8 miss
+store 0x4602 hit
+load 0x6ca hit 00
+load 0x866 hit 0000000000000000
+load 0x6200 miss 0000000000000000
+load 0xa52d miss 0000000000000000
+load 0x4865 hit 0000b34f00000000
+load 0xa2cb miss 5e
+store 0xa72f miss
+load 0x2001 hit 00
+load 0x2203 hit 00000000
+store 0x4ac8 miss
+load 0x4265 miss 0000
+store 0x8aca miss
+store 0x68c8 miss
+store 0x452d miss
+load 0x265 miss 0000000000000000
+store 0x8603 miss
+load 0x267 hit 0000
+load 0x32f miss 0000000000000000
+store 0x852f hit
+store 0x6a65 miss
+load 0x2402 hit 00
+store 0x8465 miss
+store 0x3 hit
+store 0x2ac8 miss
+store 0x8b2f miss
+store 0x72d hit
+load 0x2864 hit 00
+store 0x292e miss
+load 0xa664 miss 00000000
+load 0x26c9 miss 0000000000000000
+load 0xaac9 hit 0000000000000000
+store 0x272d miss
+load 0x32e hit 0000000000000000
+load 0x8065 miss 8ec4247900000000
+store 0x2aca miss
+load 0x2202 hit 0000000000000000
+load 0x6464 hit 00
+load 0x72f hit 00
+load 0x4b2c miss 00
+load 0x62c8 miss b702
+store 0x4ac9 miss
+load 0x4401 hit 16
+store 0x60ca hit
+load 0xa065 miss 0000
+load 0x272c miss 001b
+load 0x1 hit 0000bc65
+load 0xa2ca miss 00
+load 0x612c miss 0000000000000000
+load 0x8802 miss 00
+store 0xaac8 hit
+store 0x6201 hit
+load 0x2b2c miss 0000
+load 0x852e hit 00
+store 0x8401 miss
+load 0x8003 hit 00000000
+store 0x6a64 miss
+load 0xa464 miss 00000000
+load 0xa064 hit 00
+load 0x60ca hit ede70000
+load 0x6202 hit 8c
+load 0x2ac9 miss 22
+load 0x82c9 miss 00
+load 0xa264 hit 00000000
+load 0x272f hit fe
+load 0x200 miss 00000000
+load 0x872c miss 00
+store 0xa72d miss
+store 0x264 hit
+load 0x4065 miss 0000
+load 0x692c miss e0cd3314
+store 0x4b2d hit
+load 0x26ca hit 0000000000000000
+store 0x40c9 hit
+load 0x2a67 hit 00000000
+load 0x2a65 hit 0000
+load 0x8b2f miss a0
+load 0x88c9 hit 0000000000000000
+store 0x872d hit
+load 0x80cb hit 00
+load 0x44ca hit 0000
+load 0x652c miss 00000000
+load 0x66c8 miss 0000000000000000
+load 0x84c9 miss 00
+load 0xa0c8 hit 0000
+store 0x6000 hit
+load 0x4a66 miss 0000
+store 0x32e hit
+load 0x20c9 miss 00000000
+store 0x4a02 hit
+store 0x8cb hit
+load 0x892e miss 00000000
+load 0xa32d miss 00000000
+load 0x8065 hit 8ec4247900000000
+store 0xa03 miss
+load 0x2666 hit b5
+load 0x4665 miss 00
+load 0x232f miss 0000000000000000
+store 0x452f miss
+store 0x492e miss
+load 0x2cb hit c7
+load 0xa865 miss 00
+load 0x6667 hit 00000000
+load 0x632f miss 0000
+load 0x272c hit 001b1bfeb8000000
+store 0x432c miss
+store 0x40cb miss
+store 0x6067 hit
+load 0x832e miss 0000
+store 0x2203 miss
+store 0x6acb miss
+load 0x4b2d hit d5
+store 0xaa02 hit
+store 0x88c9 hit
+load 0x52f hit 00
+load 0xa0ca hit 00
+load 0x68ca miss 0000
+load 0x6402 hit 6a00
+store 0x6c9 miss
+store 0x2603 hit
+store 0x80c9 hit
+load 0x8664 miss 00000000
+load 0x4267 miss 00
+load 0xb2c miss 00
+store 0x8801 hit
+store 0x403 miss
+store 0x4ac9 hit
+load 0xa92c miss 00
+load 0xa864 hit 00
+load 0xa801 hit 00000000
+store 0x32e miss
+load 0x12e miss 00
+load 0x492e miss c503
+load 0x8064 hit 00
+load 0x2601 hit 0000
+load 0x8403 hit ed15
+store 0x6465 hit
+store 0x632c hit
+load 0x4465 hit 0000
+load 0xb2e hit 00000000
+store 0x4802 miss
+load 0x2a00 hit 00
+store 0x6202 miss
+store 0x8266 hit
+store 0x432d miss
+store 0x232e hit
+store 0x4c8 miss
+load 0x8a64 miss 00000000
+store 0x44c8 hit
+load 0x4403 hit 00
+store 0x24ca miss
+load 0x6a65 miss 82370000
+load 0x6a03 hit 0000
+load 0xa92c hit 0000000000000000
+load 0x8403 hit ed
+store 0x12c hit
+load 0x6602 hit 00000000
+store 0x2003 hit
+load 0x432f miss ae11
+load 0x872f hit 0000000000000000
+load 0x8201 hit 00000000
+load 0x60c9 hit 00
+load 0x832f hit 00
+store 0x2200 miss
+load 0xa200 hit 00
+load 0x8264 hit 00
+load 0x2665 hit 91b5
+load 0xa2c9 hit 00005ea05a4749ae
+load 0xa402 hit 00
+load 0x8ac9 hit 00fb
+load 0xa002 hit 4f26
+store 0x292d miss
+load 0x92e miss 00
+load 0xa4ca hit 0000000000000000
+store 0x232c hit
+load 0x26c9 hit 00
+load 0xa403 hit 00000000
+store 0xa864 hit
+load 0x26ca hit 0000000000000000
+load 0x48cb miss 00
+load 0x8b2d hit 0000a0c1
+load 0xa065 hit 0000
+load 0x62c8 miss b702dc74
+store 0x4667 hit
+store 0x20c9 hit
+load 0x72d hit a9000000
+load 0xa12d hit 3d87c588
+store 0x8a01 hit
+store 0x4aca hit
+load 0x60cb hit e7
+store 0x6a64 hit
+load 0x4664 hit 00
+load 0xa603 miss 00
+load 0x432d hit 1ed8ae11
+load 0x40c9 miss 35e448be
+store 0xa8cb hit
+store 0x8803 hit
+load 0x292c miss 00e38059
+load 0x8267 hit fc
+load 0x6800 hit 0000000000000000
+store 0x8266 hit
+store 0x8200 hit
+load 0xaacb miss 00000000
+store 0x48c9 hit
+store 0x8064 miss
+load 0x8203 hit 6fdbe86a
+store 0x652e hit
+load 0x203 miss 00
+store 0x28ca miss
+store 0x86ca miss
+load 0xa02 miss 00830bd2d3000000
+store 0x403 miss
+load 0xa2c9 hit 00005ea0
+store 0xa64 hit
+store 0x2a01 miss
+load 0x4467 hit 00
+load 0x4a65 hit 0000000000000000
+load 0x803 miss 0000
+load 0x6a02 hit 0000000000000000
+load 0x4800 hit 0000c171c43b0000
+store 0x4866 hit
+load 0x6403 hit 0000
+load 0x82c9 hit 00000000
+load 0x4465 hit 0000000000000000
+load 0x800 hit 0000
+store 0x4664 hit
+store 0x8265 hit
+store 0x492f hit
+store 0x60c9 hit
+load 0xaa67 hit 00000000
+store 0xa003 hit
+store 0x86c9 miss
+load 0x4265 miss 0000000000000000
+store 0x8064 miss
+store 0x8665 miss
+load 0x4403 hit 00
+load 0x600 miss 0000000000000000
+load 0x2801 miss 00000000
+load 0x26cb hit 0000000000000000
+load 0x672e miss 0000
+load 0x40ca hit e448becc
+store 0x4467 hit
+load 0x8267 hit 79
+load 0x52f hit 00
+load 0x852e hit 005bdaeb
+load 0x8867 miss 0000000000000000
+load 0x403 miss c178
+load 0x4600 hit 0000
+load 0x4a01 hit 8c
+store 0x6664 miss
+store 0x272c hit
+store 0x6ac8 hit
+store 0x2064 hit
+load 0x6400 hit 0000
+store 0x2867 hit
+load 0x6866 miss 0000000000000000
+store 0x6866 hit
+load 0xaca hit 0000
+load 0x46cb hit 0000000000000000
+store 0x8002 miss
+load 0x2064 hit cd7d
+load 0x2866 hit 00804166d9d503d6
+store 0x4267 hit
+store 0x62cb miss
+load 0x452e miss 4754217a
+load 0x2800 hit 00
+load 0x86c9 miss 448c000000000000
+load 0x2aca miss 83
+store 0xa602 miss
+load 0x452d hit ff4754217a510c4d
+load 0x4a65 hit 0000
+store 0x8666 hit
+load 0x8a65 miss 0000000000000000
+load 0xaa66 miss 0000000000000000
+store 0x2267 miss
+store 0x2666 hit
+store 0x42c8 hit
+store 0x6a00 miss
+store 0x64 miss
+load 0x2b2c hit 0000b474
+store 0x401 hit
+store 0x803 hit
+load 0x84cb miss 00000000
+store 0x4066 hit
+store 0x64c8 hit
+load 0x652e hit f2
+store 0x64c8 hit
+load 0x4200 hit 00
+store 0x6664 miss
+load 0xc8 miss 00
+store 0x92d hit
+load 0x8a03 hit 0000000000000000
+load 0x672f hit 00
+load 0x8867 hit 00
+load 0x232f hit 0000
+store 0x80c9 miss
+load 0x4864 miss 00
+load 0x2665 hit 91be4d93
+load 0xac9 miss 00000000
+load 0x4801 hit 00c171c4
+load 0x8664 hit 00e07df2d007af85
+load 0x80cb miss 00
+load 0x832c hit 0000000000000000
+load 0x8065 hit f5c42479
+store 0xa200 hit
+load 0xa0c8 miss 0000
+load 0x2866 hit 00804166
+load 0x4a00 hit 00
+store 0x2867 hit
+load 0xa92f hit 00000000
+load 0x28c9 hit 001c
+load 0x4ac8 hit 88806c38
+store 0xaa65 hit
+store 0x2a66 miss
+load 0x602 hit 00000000
+store 0x2 hit
+load 0x3 hit 0b0ee800
+load 0x4665 hit 0000
+load 0xa6cb miss 00
+load 0x26c8 miss 0000000000000000
+store 0x203 hit
+load 0xaac8 hit ee000000
+store 0x64c9 hit
+load 0x20cb miss 00000000
+load 0xa200 hit e5
+store 0x4664 hit
+load 0x4864 hit 0000
+load 0x4a03 hit f3796200
+load 0xa464 miss 00
+store 0x201 hit
+load 0x8802 hit cf
+load 0xa401 hit 00
+load 0x872c hit 00d1
+store 0x6865 miss
+store 0x6401 hit
+store 0x266 hit
+load 0x492c hit 0000c5a8f2870000
+load 0x8666 miss 7d
+load 0x852f hit 5bdaebef
+store 0x6b2c miss
+load 0xa000 hit 00374fcd
+store 0x4b2e hit
+store 0x6001 miss
+load 0xacb hit 0000000000000000
+load 0x832d hit 0000
+load 0x4664 hit d3fc43d7a1d75da1
+store 0x92f hit
+load 0x801 hit 00
+store 0xa4c9 hit
+store 0x6067 miss
+load 0x6200 miss 00deff0000000000
+store 0x8b2e hit
+load 0x4c8 hit 1ade
+load 0x4801 hit 00
+load 0x8ac9 hit 00
+store 0x6c8 miss
+store 0x68ca miss
+load 0xa52c miss 00
+load 0x68cb miss 0000000000000000
+store 0x8b2f hit
+load 0xa601 hit 008e
+load 0x432f hit ae111000
+load 0x8866 hit 00
+store 0x8667 hit
+load 0x2803 miss 00000000
+store 0x8000 hit
+load 0xa401 hit 00000000
+load 0xa52c hit 0000000000000000
+load 0x412f hit 00000000
+store 0x8c9 miss
+store 0xa264 hit
+store 0x2603 hit
+load 0x82c8 miss 0000
+store 0xa92e hit
+store 0xaa64 hit
+load 0xc8 hit 0000
+load 0x4465 miss 0000
+load 0xa666 hit 00000000
+load 0x40c8 miss 0035
+load 0x6aca miss 00a2140000000000
+store 0x852e hit
+store 0xaa02 hit
+store 0x292e hit
+store 0xa400 hit
+store 0xa602 hit
+store 0x72f hit
+store 0x4800 hit
+load 0x2866 hit 008833e5282390fd
+store 0x4267 miss
+store 0x4202 miss
+load 0x492d hit 00c5a8f2
+store 0x2c8 hit
+load 0x4600 hit 0000816456940000
+store 0x8ac8 hit
+store 0x866 miss
+load 0xa67 hit 9ab4
+store 0x6601 miss
+load 0x4203 miss f3
+load 0x8866 hit 0000000000000000
+load 0xa402 hit 9c990000
+load 0x632c hit d863688600000000
+load 0x6867 hit e6
+store 0x2600 hit
+load 0xa002 hit 4fcd
+store 0x72c hit
+load 0xa201 hit b8
+load 0x6a01 hit 0000
+store 0xb2f hit
+store 0xa72c miss
+store 0x4803 hit
+store 0x8402 miss
+store 0xa464 hit
+load 0x472f miss 0000000000000000
+load 0x4801 hit 7cc1ad37
+store 0xa65 hit
+load 0x4266 hit 00107056cc000000
+store 0x2664 hit
+load 0xa92e hit f5
+load 0x6664 miss 29
+store 0x4664 hit
+load 0x6803 hit 00
+load 0x6acb hit a214
+load 0x872c hit 00d1fb00
+store 0x812c miss
+store 0x62c9 miss
+store 0x2467 miss
+load 0xa002 hit 4f
+load 0xa065 hit 00000000
+store 0x8266 hit
+load 0xa52f hit 0000000000000000
+load 0x8c8 miss 0020fc44
+load 0x6602 hit 71b7
+load 0xaa64 hit f882
+store 0x64ca hit
+store 0x6a67 hit
+store 0x292f hit
+load 0x602 miss 0000000000000000
+store 0xa12f hit
+load 0x292e hit 02458c70
+load 0x46c8 hit 00000000
+store 0x6a66 hit
+load 0xb2d hit 00
+store 0xa52c hit
+store 0x232e hit
+store 0xa601 miss
+load 0x6266 miss 00000000
+store 0xa2c9 hit
+load 0x8266 hit 7154c092b09b9e4a
+load 0xa067 hit 00
+load 0x401 hit 4e00c178
+load 0xa92f hit 0e
+store 0x8266 hit
+load 0x8067 hit 24790000
+store 0x2acb miss
+store 0xa32c miss
+store 0x4a01 miss
+store 0x666 hit
+store 0x2b2f hit
+store 0x472c hit
+load 0xa92d hit 00f50eb0
+store 0x4802 hit
+load 0x72f hit 3680235900000000
+store 0x2066 miss
+store 0x24c9 miss
+load 0x4a67 miss 00
+load 0x6400 hit 005bd96e
+store 0x68ca hit
+load 0xb2f hit c7
+store 0x42ca hit
+load 0x892d miss 00
+load 0x2a01 miss 3c5e509c
+load 0x4c8 hit 1ade
+load 0x8cb hit 44000000
+load 0x212e miss 0000000000000000
+load 0x66 hit 46c6
+store 0x64c9 hit
+load 0x46c9 hit 00000000
+store 0x4665 hit
+load 0x6066 miss 00
+store 0x2b2f hit
+store 0xa267 hit
+store 0xa92f hit
+store 0x48cb hit
+load 0x24c8 miss 0028
+store 0x6acb hit
+load 0x6603 hit b7b3
+load 0x8a03 miss 00
+load 0x6266 hit 00
+store 0xa665 miss
+load 0x692c miss e0cd3314
+load 0x8602 miss 00130000
+store 0x2003 miss
+load 0x6b2f miss 00000000
+load 0x92c miss 00
+store 0x667 hit
+load 0xab2e miss 0000
+load 0x467 hit 0000000000000000
+store 0x466 hit
+load 0xa52c hit ae61
+store 0x65 hit
+load 0x4201 hit 0051f300
+load 0x8a02 hit eb00
+store 0x8b2c miss
+load 0x44c9 miss 0000
+store 0x88cb hit
+store 0x46cb hit
+store 0xa400 miss
+load 0x872c hit 00d1
+load 0x264 miss 7c3e4f7b
+store 0x2000 miss
+store 0x8464 miss
+load 0x92d hit a2c6
+store 0x465 hit
+load 0x6201 hit deff
+load 0x2866 miss 008833e5282390fd
+store 0x44cb hit
+store 0xcb hit
+load 0x92f hit d0fe000000000000
+load 0x6403 hit 6eac
+store 0x264 hit
+load 0x6b2e hit 0000000000000000
+load 0xa4c8 miss 0018
+load 0x4800 hit 3a7cb9ad372dac96
+load 0x6402 hit d9
+store 0x4ca hit
+store 0x8a01 hit
+load 0x6467 hit 0000
+store 0x8266 miss
+store 0x2a67 hit
+load 0x201 hit 06
+load 0x632e hit 68
+store 0x6466 hit
+load 0x12c hit 5a9684ea
+store 0x84ca miss
+load 0x52f miss 0000000000000000
+load 0x8667 hit 5b04
+store 0x6266 hit
+store 0x4ac9 hit
+load 0xa0c8 hit 0000
+load 0xab2c hit 00000000
+load 0x4866 hit c6b34f0000000000
+store 0x412d hit
+load 0x4465 hit 0000
+load 0xa265 hit 0f69
+store 0x6401 hit
+load 0x6201 hit deff
+store 0x265 hit
+store 0x8865 hit
+store 0x612f miss
+load 0xaa64 miss f882000000000000
+store 0x8267 miss
+load 0x6465 hit b2
+store 0x252f miss
+store 0x812c miss
+load 0x4803 hit ad
+load 0xa6c8 miss 0000
+load 0xa0cb hit 0000000000000000
+store 0xa001 hit
+load 0xa67 miss 9ab4
+load 0x46cb hit e3f8000000000000
+store 0x6803 miss
+load 0xacb hit 0000000000000000
+load 0x632e hit 6886000000000000
+load 0x2a03 hit 50
+load 0x412f hit 0000
+store 0x8800 hit
+store 0x6a65 miss
+load 0x8867 hit 0000000000000000
+store 0xa52d hit
+load 0x2665 miss 91
+store 0x4065 miss
+load 0x6464 hit 00
+load 0xa003 hit cdd4d7361f720000
+store 0xaa01 hit
+store 0xa2c8 hit
+load 0x6065 hit 0000
+load 0x272c miss ade319fdb8000000
+load 0x2867 hit 8833e528
+store 0x4c8 hit
+store 0xa65 hit
+store 0x492f miss
+store 0xa12d hit
+load 0xa8ca miss 00
+load 0x4000 miss 00
+load 0x4203 hit f300000000000000
+load 0x672f miss 0000
+store 0x8200 miss
+store 0x6a03 miss
+load 0xa52e hit c0f1000000000000
+load 0xa800 hit 00
+load 0xa001 hit ddcecdd4
+store 0xa8cb hit
+store 0x4b2e miss
+store 0xa664 hit
+load 0xa000 hit 00ddcecdd4d7361f
+store 0xa0c8 hit
+load 0x2202 miss 00
+store 0xa800 hit
+store 0x632c hit
+store 0xa72f miss
+load 0x6002 hit 9f6cd38a374b0000
+load 0x8601 hit 00001300
+store 0x872f hit
+load 0xa466 hit 00000000
+load 0x0 hit 0000f70b
+load 0x22ca hit 95e9000000000000
+store 0xa265 hit
+store 0x2201 hit
+load 0x892d hit 00000000
+load 0x4802 hit b9ad372dac96ca66
+load 0x92d hit a2c6d0fe
+load 0x68cb miss 3e
+store 0x6002 hit
+load 0x8ac9 miss 6109
+store 0x2 hit
+load 0x2a03 hit 509c000000000000
+load 0x8003 miss e0000000
+store 0x467 hit
+load 0x40ca miss e4
+store 0x46cb hit
+load 0x80c9 hit 0b00
+store 0x84c8 miss
+store 0x4b2c miss
+load 0x52c hit 00000000
+load 0x8264 miss 002fdde8c092b09b
+store 0x86c8 hit
+load 0x403 hit c17801d91b50a8fc
+load 0x264 miss 82
+load 0xa2ca hit 00
+load 0x632e hit 68860000
+load 0x632d hit 0a688600
+load 0x4067 hit 3a00000000000000
+store 0x8a64 hit
+load 0x4603 hit 6456940000000000
+load 0x42ca miss 996f0508
+load 0x4ca hit ab2d
+store 0x66 hit
+load 0x8c8 miss 0020fc44
+store 0xa00 hit
+store 0x866 hit
+store 0x80c8 hit
+load 0x8000 hit ac4c30e0
+load 0x52c hit 00000000
+load 0xab2c hit 0000000000000000
+load 0x52c hit 00
+load 0x472c miss a6bb806b13ec9917
+load 0x68c8 hit 6e444b3e00000000
+store 0x66cb miss
+load 0x6466 hit 092a8ab500000000
+load 0xa265 hit 8e1f802c
+store 0xa402 hit
+load 0x12d hit 9684ea00
+load 0x264 hit 82940545
+load 0x2a00 hit 003c5e50
+store 0x603 miss
+load 0x80cb hit 00
+load 0xa866 hit 00
+load 0x2a66 hit 150c3bc0
+load 0xa866 hit 00
+store 0x812f miss
+load 0x2865 miss 0000
+load 0x24c9 miss 28fddd08b1e4308d
+store 0x2a64 hit
+load 0x8266 hit dd
+load 0x8c9 hit 20fc440000000000
+load 0x692c hit e0cd
+load 0x4066 hit df3a0000
+store 0x652c hit
+load 0x832c hit 00000000
+load 0x72e miss 0036802359000000
+load 0xb2f hit c756191cf849990b
+load 0x8a67 hit 0000
+store 0xa72d miss
+store 0xa12f hit
+store 0x403 hit
+load 0x4866 miss c6b3
+store 0x292f miss
+store 0x866 hit
+load 0x203 hit 1e
+load 0xa601 hit 4b24ff5f
+load 0x64c9 hit da1f84a4
+load 0x4a03 miss 004d620000000000
+load 0x8802 miss cf
+store 0xa203 hit
+load 0xa01 hit 3200
+load 0x872d hit d1fb
+load 0xa400 hit 2267929900000000
+load 0xa465 hit 95000000
+store 0x612e miss
+store 0xa12f hit
+load 0x8600 hit 00000013
+load 0x68c8 miss 6e444b3e00000000
+load 0x4b2c miss 0ce3
+load 0x632f hit 8600000000000000
+store 0x12e hit
+store 0x802 hit
+store 0x6403 hit
+load 0xa003 miss cdd4
+load 0x252d miss 00
+load 0x6664 miss 29
+load 0x692d hit cd33
+store 0xa603 hit
+store 0xa401 hit
+load 0x2200 miss b2
+load 0x64cb hit 84
+store 0x6864 hit
+load 0xa602 hit 24934b00
+load 0x62c8 miss b73bdc5740d6b795
+load 0x212d hit 00
+store 0xa2ca hit
+load 0x802 hit 2b
+store 0x652f hit
+store 0x872f hit
+store 0xa65 hit
+load 0x832e hit 0000
+store 0x8865 hit
+load 0x4c8 hit b56bab2d
+load 0x2666 miss be4d9380
+load 0x2864 miss 00
+store 0x465 hit
+store 0xab2c hit
+load 0x4a65 hit 00000000
+load 0x6c9 miss 8302f3bc63d07bc4
+store 0x2b2f miss
+load 0x6aca miss 003a
+store 0x4865 miss
+load 0x32f miss 43
+load 0x8603 miss 1300
+store 0x6867 hit
+load 0xa6ca hit 00
+load 0x4265 miss 0000
+load 0x2c9 miss b7
+load 0x8003 hit e000
+store 0x8866 hit
+load 0x4866 miss 9f
+load 0xa466 hit 0000000000000000
+store 0xa401 hit
+load 0x492f miss 99a9
+load 0xa201 hit b8e2
+load 0x666 hit eab83ea139000000
+load 0x2064 miss cd7d151e00000000
+load 0x2265 miss 00
+store 0x8a67 hit
+load 0x492f hit 99a9
+load 0xa601 hit 4b24934b00c832a8
+load 0x2b2c miss 0000b40b
+store 0x4a02 hit
+store 0x612c miss
+load 0x412f hit 00
+load 0x432f miss ae111000
+load 0x612e miss 0b
+store 0x6402 hit
+load 0x6400 hit 00cc3a10
+store 0x68ca hit
+load 0x6a67 hit 4d88fa7d
+load 0x8b2f miss bb234334
+store 0x232f miss
+load 0xa8ca miss 006d5c3b
+store 0x6b2e miss
+load 0x84c8 miss dd
+load 0x6265 miss 002bad00
+store 0x4001 hit
+store 0x8a64 hit
+load 0x272d miss e3
+load 0x60c9 miss d7ede700
+load 0x12d hit 96c1ea00
+store 0x64c8 hit
+load 0x4264 miss 0000
+load 0x4c9 hit 6bab
+load 0x4acb hit 38
+load 0x812e miss 6f4d
+store 0xa2c8 hit
+load 0x2c9 miss b7b561b9
+store 0x8800 hit
+store 0x46cb miss
+store 0x20cb hit
+load 0x4aca hit 6c38
+load 0x292c miss 00e30232
+store 0x4b2e hit
+load 0x42ca hit 996f0508
+load 0x6c8 hit f9
+store 0x467 hit
+store 0xa52f hit
+load 0x92f hit d0
+store 0x600 hit
+store 0x432c hit
+store 0x4602 miss
+load 0x92d hit a2c6d0fe00000000
+load 0xa6c9 hit 0000
+load 0x6600 miss 005971b7
+load 0xaac8 miss ee
+load 0x8a66 hit 00
+load 0x8a01 hit ebeb0000
+store 0x4403 miss
+store 0x6401 hit
+load 0xa601 hit 4b24
+load 0xa8c8 hit 0000006d5c3bf134
+store 0x6467 hit
+load 0x6a64 hit e5
+store 0xaaca hit
+load 0x852f miss 33daebef68716429
+load 0x4002 hit 00000000
+store 0x6265 hit
+store 0xaa02 hit
+load 0x2a66 miss 150c3bc0
+load 0x8465 hit 3428124c
+load 0x2802 miss 00000000
+load 0x6065 hit 00
+load 0x8264 miss 002fdde8c092b09b
+load 0x62cb hit 5740
+store 0xa0c9 miss
+load 0x202 hit ab
+store 0xaa01 hit
+load 0x665 hit 00eab83e
+load 0x22c9 miss d995
+load 0x4865 miss ff9f
+load 0x232d miss b6603e75de716e51
+load 0x8a02 hit eb00
+load 0x8867 hit 0000000000000000
+load 0x4cb hit 2d
+load 0xa202 miss e27a2205
+store 0x6465 hit
+store 0x8403 hit
+load 0x4664 miss a5b343d7
+load 0x4803 hit ad372dac96ca663c
+load 0x2465 miss 00b6da00
+load 0xa402 miss cfcd470000000000
+load 0x4602 hit 176a569400000000
+load 0x8b2c hit ac9dbebb23433401
+load 0xa201 hit b8
+load 0xa52c hit ae3fc0c706000000
+load 0xa065 miss 00000000
+store 0xaca miss
+load 0x232c hit 80b6
+load 0x601 hit f8
+load 0x4a67 miss 00
+load 0x72d hit a9003680
+store 0x8a66 hit
+store 0x252d hit
+load 0x80c8 miss f80b000000000000
+store 0x8a64 hit
+load 0x4003 hit 0000
+load 0x2002 miss 007a
+store 0x665 hit
+store 0xa67 miss
+store 0x4b2e hit
+load 0x8264 miss 002f
+load 0x64c9 hit 14810542
+store 0x852e hit
+load 0x2a65 hit 21150c3b
+load 0x4b2f hit 4af5
+store 0x8864 hit
+load 0x4800 hit 3a
+store 0x6466 hit
+store 0x812e hit
+load 0x672e miss 00000000
+store 0xaa67 hit
+load 0x4864 hit 00ff
+load 0x2667 miss 4d93806bfb000000
+load 0x4465 miss 0000b441
+load 0xa202 hit e27a2205
+load 0xa202 hit e27a
+store 0xa267 hit
+load 0x8601 miss 00001300
+load 0xa72c miss 806e3519
+load 0x6b2c miss 2700
+store 0x8a02 hit
+store 0x8a00 hit
+store 0x2002 hit
+load 0x4602 hit 176a569400000000
+load 0x267 hit 459d3c0522a40000
+store 0x2065 hit
+store 0x272e hit
+load 0x892e miss 00000000
+load 0xa6c8 miss 0000
+store 0xa72c hit
+store 0x72d hit
+load 0x232e hit 603e
+store 0x4267 miss
+load 0x872d miss d1fbc4511e5d0000
+store 0x20cb hit
+load 0x4402 hit 0082
+store 0x400 miss
+store 0x80c9 hit
+store 0x4464 hit
+load 0x252f hit 7754
+store 0x8667 hit
+load 0xa72d hit 6e351992
+load 0xa202 hit e27a
+load 0x8200 hit 60
+load 0x2ac9 hit 22
+store 0xab2d miss
+store 0x800 miss
+store 0xa65 miss
+load 0xa00 miss da32
+store 0xa4ca hit
+load 0x32e hit 65438dbc
+load 0x8b2d hit 9dbebb2343340185
+store 0x4265 miss
+store 0x4801 hit
+load 0x6001 miss 6d
+load 0xa002 miss cecdd4d7361f7200
+load 0x2264 hit 0000
+load 0x2665 hit 91be
+load 0x4a65 miss 00000000
+load 0xa802 hit 0000000000000000
+store 0x6200 miss
+load 0x801 miss 1d2b0100
+load 0x252c hit 00
+load 0xaa65 miss 82002100
+store 0xa664 hit
+load 0x8866 hit cf38
+load 0x6a64 miss e561c24d
+load 0x72d hit 0e
+store 0x4a02 hit
+load 0x8865 hit 01cf
+load 0xa92c miss 0000
+store 0x4865 hit
+store 0xa401 hit
+load 0x672f miss 0000
+load 0x452d miss ff
+load 0x2064 hit cd
+store 0x22c8 hit
+store 0x8003 hit
+load 0x8aca miss 09d172d5
+store 0x6b2f hit
+store 0x60c9 hit
+load 0xaac8 hit ee00a4ff
+load 0x2a64 miss 3221150c
+store 0x2a00 hit
+store 0x60c9 hit
+load 0x26c9 hit 0000000000000000
+load 0x672e hit 0000
+load 0x8aca hit 09d172d5
+store 0x8866 hit
+load 0x22c8 hit f2
+load 0x8b2f hit bb23433401851dd9
+store 0x665 miss
+store 0xa2c8 hit
+load 0xa801 hit f6
+load 0x6864 miss df
+load 0x603 miss 3347e75f
+store 0xa0ca hit
+load 0x46cb miss 9a

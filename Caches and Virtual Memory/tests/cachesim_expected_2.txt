@@ -1,0 +1,2 @@
+store 0x1 miss
+load 0x0 miss 00deadbe
