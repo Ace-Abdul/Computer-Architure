@@ -1,0 +1,70 @@
+{
+  "mode": "logisim",
+  "test_suites": {
+    "circuit1a": {
+      "tests": [
+        { "desc": "A=0, B=0, C=0",  "args": ["-ip", "A=0,B=0,C=0", "-c", "0"] },
+        { "desc": "A=0, B=0, C=1",  "args": ["-ip", "A=0,B=0,C=1", "-c", "0"] },
+        { "desc": "A=1, B=0, C=1",  "args": ["-ip", "A=1,B=0,C=1", "-c", "0"] },
+        { "desc": "A=1, B=1, C=1",  "args": ["-ip", "A=1,B=1,C=1", "-c", "0"] }
+      ],
+      "penalty_logisim_disallowed_components": [
+        {
+          "penalty": 0.5,
+          "components": ["Button", "Joystick", "Keyboard", "LED", "7-Segment Display", "Hex Digit Display", "LED", "TTY", "T Flip-Flop", "J-K Flip-Flop", "S-R Flip-Flop", "Register", "Counter", "Shift Register", "Random", "RAM", "ROM", "Adder", "Subtractor", "Multiplier", "Divider", "Negator", "Comparator", "Shifter", "BitAdder", "BitFinder", "Demultiplexer", "Decoder", "Priority Encoder", "BitSelector", "Buffer", "Odd Parity", "Even Parity", "Controlled Buffer", "Controlled Inverter", "Pull Resistor", "Transistor", "Transmission Gate", "Bit Extender"]
+        }
+      ]
+    },
+    "circuit1c": {
+      "tests": [
+        { "desc": "A=0, B=0, C=0",  "args": ["-ip", "A=0,B=0,C=0", "-c", "0"] },
+        { "desc": "A=0, B=0, C=1",  "args": ["-ip", "A=0,B=0,C=1", "-c", "0"] },
+        { "desc": "A=0, B=1, C=0",  "args": ["-ip", "A=0,B=1,C=0", "-c", "0"] },
+        { "desc": "A=1, B=0, C=0",  "args": ["-ip", "A=1,B=0,C=0", "-c", "0"] }
+      ],
+      "penalty_logisim_disallowed_components": [
+        {
+          "penalty": 0.5,
+          "components": ["Button", "Joystick", "Keyboard", "LED", "7-Segment Display", "Hex Digit Display", "LED", "TTY", "T Flip-Flop", "J-K Flip-Flop", "S-R Flip-Flop", "Register", "Counter", "Shift Register", "Random", "RAM", "ROM", "Adder", "Subtractor", "Multiplier", "Divider", "Negator", "Comparator", "Shifter", "BitAdder", "BitFinder", "Demultiplexer", "Decoder", "Priority Encoder", "BitSelector", "Buffer", "Odd Parity", "Even Parity", "Controlled Buffer", "Controlled Inverter", "Pull Resistor", "Transistor", "Transmission Gate", "Bit Extender"]
+        }
+      ]
+    },
+    "my_adder": {
+      "tests": [
+        { "desc": "A=0xABCD, B=0x5678, sub=0", "args": ["-c", "0", "-ip", "A=0xABCD,B=0x5678,sub=0", "-of", "h"] },
+        { "desc": "A=0x7531, B=0x6420, sub=1", "args": ["-c", "0", "-ip", "A=0x7531,B=0x6420,sub=1", "-of", "h"] },
+        { "desc": "A=0x9BDF, B=0x8ACE, sub=0", "args": ["-c", "0", "-ip", "A=0x9BDF,B=0x8ACE,sub=0", "-of", "h"] },
+        { "desc": "A=0xABCD, B=0x5678, sub=1", "args": ["-c", "0", "-ip", "A=0xABCD,B=0x5678,sub=1", "-of", "h"] }
+      ],
+      "penalty_logisim_disallowed_components": [
+        {
+          "penalty": 0.5,
+          "components": ["Button", "Joystick", "Keyboard", "LED", "7-Segment Display", "Hex Digit Display", "LED", "TTY", "T Flip-Flop", "J-K Flip-Flop", "S-R Flip-Flop", "Register", "Counter", "Shift Register", "Random", "RAM", "ROM", "Multiplier", "Divider", "Negator", "Comparator", "Shifter", "BitAdder", "BitFinder", "Demultiplexer", "Decoder", "Priority Encoder", "BitSelector", "Buffer", "Odd Parity", "Even Parity", "Controlled Buffer", "Controlled Inverter", "Pull Resistor", "Transistor", "Transmission Gate", "Bit Extender"]
+        },
+        {
+          "penalty": 0.0,
+          "components": ["Adder", "Subtractor"]
+        }
+      ]
+    },
+    "ignition": {
+      "tests": [
+        { "desc": "constant input: SE=0,ER=0, total cycles=5", "args": ["-ip", "start_engine=0,engine_running=0", "-c", "5"] },
+        { "desc": "constant input: SE=0,ER=1, total cycles=5", "args": ["-ip", "start_engine=0,engine_running=1", "-c", "5"] },
+        { "desc": "constant input: SE=1,ER=0, total cycles=5", "args": ["-ip", "start_engine=1,engine_running=0", "-c", "5"] },
+        { "desc": "constant input: SE=1,ER=1, total cycles=5", "args": ["-ip", "start_engine=1,engine_running=1", "-c", "5"] },
+        { "desc": "normal start+stop, slow, total cycles=14", "args": ["-ic", "2,start_engine=1,engine_running=0:4,start_engine=0,engine_running=0:6,start_engine=0,engine_running=1:8,start_engine=1,engine_running=1:10,start_engine=0,engine_running=1:12,start_engine=0,engine_running=0", "-c", "14"] },
+        { "desc": "normal start+stop, fast, total cycles=8", "args": ["-ic", "2,start_engine=1,engine_running=0:3,start_engine=0,engine_running=0:4,start_engine=0,engine_running=1:5,start_engine=1,engine_running=1:6,start_engine=0,engine_running=1:7,start_engine=0,engine_running=0", "-c", "8"] },
+        { "desc": "start+stall+restart, total cycles=14", "args": ["-ic", "2,start_engine=1,engine_running=0:4,start_engine=0,engine_running=1:6,start_engine=0,engine_running=0:8,start_engine=1,engine_running=0:10,start_engine=1,engine_running=1:12,start_engine=0,engine_running=1", "-c", "14"] },
+        { "desc": "start+stop with button hold, total cycles=25", "args": ["-ic", "2,start_engine=1,engine_running=0:4,start_engine=1,engine_running=1:7,start_engine=0,engine_running=1:10,start_engine=1,engine_running=1:13,start_engine=1,engine_running=0:16,start_engine=0,engine_running=0:19,start_engine=1,engine_running=0:22,start_engine=1,engine_running=1", "-c", "25"] },
+        { "desc": "random input, total cycles=100", "args": ["-ic", "2,start_engine=0,engine_running=0:3,start_engine=1,engine_running=1:4,start_engine=1,engine_running=1:5,start_engine=1,engine_running=1:6,start_engine=1,engine_running=0:7,start_engine=1,engine_running=1:8,start_engine=1,engine_running=0:9,start_engine=0,engine_running=1:10,start_engine=0,engine_running=0:11,start_engine=1,engine_running=1:12,start_engine=0,engine_running=1:13,start_engine=1,engine_running=0:14,start_engine=0,engine_running=1:15,start_engine=0,engine_running=1:16,start_engine=0,engine_running=0:17,start_engine=1,engine_running=0:18,start_engine=0,engine_running=0:19,start_engine=1,engine_running=0:20,start_engine=0,engine_running=1:21,start_engine=1,engine_running=0:22,start_engine=1,engine_running=0:23,start_engine=0,engine_running=1:24,start_engine=1,engine_running=1:25,start_engine=0,engine_running=0:26,start_engine=0,engine_running=1:27,start_engine=0,engine_running=0:28,start_engine=0,engine_running=0:29,start_engine=1,engine_running=0:30,start_engine=1,engine_running=1:31,start_engine=1,engine_running=0:32,start_engine=0,engine_running=1:33,start_engine=0,engine_running=0:34,start_engine=1,engine_running=0:35,start_engine=0,engine_running=0:36,start_engine=0,engine_running=1:37,start_engine=1,engine_running=0:38,start_engine=1,engine_running=0:39,start_engine=0,engine_running=0:40,start_engine=1,engine_running=1:41,start_engine=1,engine_running=1:42,start_engine=0,engine_running=1:43,start_engine=0,engine_running=0:44,start_engine=1,engine_running=1:45,start_engine=0,engine_running=1:46,start_engine=0,engine_running=1:47,start_engine=0,engine_running=1:48,start_engine=1,engine_running=0:49,start_engine=1,engine_running=1:50,start_engine=0,engine_running=0:51,start_engine=0,engine_running=1:52,start_engine=1,engine_running=1:53,start_engine=1,engine_running=0:54,start_engine=0,engine_running=0:55,start_engine=1,engine_running=1:56,start_engine=1,engine_running=0:57,start_engine=0,engine_running=0:58,start_engine=1,engine_running=1:59,start_engine=1,engine_running=1:60,start_engine=0,engine_running=0:61,start_engine=0,engine_running=1:62,start_engine=0,engine_running=1:63,start_engine=1,engine_running=1:64,start_engine=0,engine_running=0:65,start_engine=1,engine_running=0:66,start_engine=0,engine_running=0:67,start_engine=1,engine_running=0:68,start_engine=1,engine_running=0:69,start_engine=1,engine_running=1:70,start_engine=1,engine_running=0:71,start_engine=1,engine_running=1:72,start_engine=1,engine_running=1:73,start_engine=1,engine_running=1:74,start_engine=1,engine_running=1:75,start_engine=0,engine_running=0:76,start_engine=0,engine_running=1:77,start_engine=1,engine_running=1:78,start_engine=0,engine_running=1:79,start_engine=1,engine_running=0:80,start_engine=0,engine_running=0:81,start_engine=0,engine_running=1:82,start_engine=0,engine_running=0:83,start_engine=0,engine_running=1:84,start_engine=0,engine_running=1:85,start_engine=1,engine_running=0:86,start_engine=0,engine_running=1:87,start_engine=1,engine_running=1:88,start_engine=0,engine_running=0:89,start_engine=1,engine_running=1:90,start_engine=0,engine_running=1:91,start_engine=1,engine_running=1:92,start_engine=1,engine_running=1:93,start_engine=0,engine_running=0:94,start_engine=0,engine_running=1:95,start_engine=0,engine_running=1:96,start_engine=0,engine_running=0:97,start_engine=0,engine_running=0:98,start_engine=1,engine_running=0:99,start_engine=1,engine_running=0", "-c", "100"] }
+      ],
+      "penalty_logisim_disallowed_components": [
+        {
+          "penalty": 0.5,
+          "components": ["Joystick", "Keyboard", "LED", "7-Segment Display", "Hex Digit Display", "LED", "TTY", "T Flip-Flop", "J-K Flip-Flop", "S-R Flip-Flop", "Register", "Counter", "Shift Register", "Random", "RAM", "ROM", "Adder", "Subtractor", "Multiplier", "Divider", "Negator", "Comparator", "Shifter", "BitAdder", "BitFinder", "Demultiplexer", "Decoder", "Priority Encoder", "BitSelector", "Buffer", "Odd Parity", "Even Parity", "Controlled Buffer", "Controlled Inverter", "Pull Resistor", "Transistor", "Transmission Gate", "Bit Extender"]
+        }
+      ]
+    }
+  }
+}

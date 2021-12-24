@@ -1,0 +1,78 @@
+  0       out         ignition_coil         0
+  0       out         starter_motor         0
+
+  1re     out         ignition_coil         0
+  1re     out         starter_motor         0
+
+  2re     out         ignition_coil         1
+  2re     out         starter_motor         1
+
+  3re     out         ignition_coil         1
+  3re     out         starter_motor         1
+
+  4re     out         ignition_coil         1
+  4re     out         starter_motor         1
+
+  5re     out         ignition_coil         1
+  5re     out         starter_motor         1
+
+  6re     out         ignition_coil         1
+  6re     out         starter_motor         1
+
+  7re     out         ignition_coil         1
+  7re     out         starter_motor         0
+
+  8re     out         ignition_coil         1
+  8re     out         starter_motor         0
+
+  9re     out         ignition_coil         1
+  9re     out         starter_motor         0
+
+  10re    out         ignition_coil         0
+  10re    out         starter_motor         0
+
+  11re    out         ignition_coil         0
+  11re    out         starter_motor         0
+
+  12re    out         ignition_coil         0
+  12re    out         starter_motor         0
+
+  13re    out         ignition_coil         0
+  13re    out         starter_motor         0
+
+  14re    out         ignition_coil         0
+  14re    out         starter_motor         0
+
+  15re    out         ignition_coil         0
+  15re    out         starter_motor         0
+
+  16re    out         ignition_coil         0
+  16re    out         starter_motor         0
+
+  17re    out         ignition_coil         0
+  17re    out         starter_motor         0
+
+  18re    out         ignition_coil         0
+  18re    out         starter_motor         0
+
+  19re    out         ignition_coil         1
+  19re    out         starter_motor         1
+
+  20re    out         ignition_coil         1
+  20re    out         starter_motor         1
+
+  21re    out         ignition_coil         1
+  21re    out         starter_motor         1
+
+  22re    out         ignition_coil         1
+  22re    out         starter_motor         1
+
+  23re    out         ignition_coil         1
+  23re    out         starter_motor         1
+
+  24re    out         ignition_coil         1
+  24re    out         starter_motor         1
+
+  25re    out         ignition_coil         1
+  25re    out         starter_motor         1
+

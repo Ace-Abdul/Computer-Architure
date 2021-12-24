@@ -1,0 +1,18 @@
+  0       out         ignition_coil         0
+  0       out         starter_motor         0
+
+  1re     out         ignition_coil         0
+  1re     out         starter_motor         0
+
+  2re     out         ignition_coil         0
+  2re     out         starter_motor         0
+
+  3re     out         ignition_coil         0
+  3re     out         starter_motor         0
+
+  4re     out         ignition_coil         0
+  4re     out         starter_motor         0
+
+  5re     out         ignition_coil         0
+  5re     out         starter_motor         0
+
