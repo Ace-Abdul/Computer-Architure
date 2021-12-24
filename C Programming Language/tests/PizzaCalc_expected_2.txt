@@ -1,0 +1,2 @@
+DominosLarge 19.266338
+DominosMedium 16.179876

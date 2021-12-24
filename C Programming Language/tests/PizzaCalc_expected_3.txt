@@ -1,0 +1,6 @@
+DominosLarge 19.266338
+DominosMedium 16.179876
+EnzosLarge 10.058125
+EnzosMedium 9.060509
+EnzosSmall 7.544852
+EnzosPersonal 6.320264

@@ -1,0 +1,38 @@
+{
+  "mode": "exe",
+  "penalty_exitcode_nonzero": 0.75,
+  "test_suites": {
+    "byseven": {
+      "tests": [
+        { "desc": "n = 1",  "args": ["1"]},
+        { "desc": "n = 2",  "args": ["2"]},
+        { "desc": "n = 4",  "args": ["4"]},
+        { "desc": "n = 7",  "args": ["7"]},
+        { "desc": "n = 10", "args": ["10"]}
+      ]
+    },
+    "recurse": {
+      "tests": [
+        { "desc": "n = 0",  "args": ["0"]},
+        { "desc": "n = 2",  "args": ["2"]},
+        { "desc": "n = 4",  "args": ["4"]},
+        { "desc": "n = 7",  "args": ["7"]}
+      ]
+    },
+    "PizzaCalc": {
+      "penalty_valgrind": 0.50,
+      "diff": "float", 
+      "tests": [
+        { "desc": "One pizza",                     "args": ["tests/PizzaCalc_input_0.txt"]},
+        { "desc": "Two pizzas, in order",          "args": ["tests/PizzaCalc_input_1.txt"]},
+        { "desc": "Two pizzas, out of order",      "args": ["tests/PizzaCalc_input_2.txt"]},
+        { "desc": "Six pizzas",                    "args": ["tests/PizzaCalc_input_3.txt"]},
+        { "desc": "Don't print after DONE",        "args": ["tests/PizzaCalc_input_4.txt"]},
+        { "desc": "Check for 0.00 in diameter",    "args": ["tests/PizzaCalc_input_5.txt"]},
+        { "desc": "Check for 0.00 in price",       "args": ["tests/PizzaCalc_input_6.txt"]},
+        { "desc": "100 pizzas",                    "args": ["tests/PizzaCalc_input_7.txt"]},
+        { "desc": "Correct output on empty file",  "args": ["tests/PizzaCalc_input_8.txt"]}
+      ]
+    }
+  }
+}
