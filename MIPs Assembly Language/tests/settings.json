@@ -1,0 +1,37 @@
+{
+  "mode": "spim",
+  "output_filters": ["filter_spim", "filter_remove_colon_prompts"],
+  "test_suites": {
+    "byseven": {
+      "tests": [
+        { "desc": "n = 1",  "stdin": "tests/byseven_input_0.txt" },
+        { "desc": "n = 2",  "stdin": "tests/byseven_input_1.txt" },
+        { "desc": "n = 4",  "stdin": "tests/byseven_input_2.txt" },
+        { "desc": "n = 7",  "stdin": "tests/byseven_input_3.txt" },
+        { "desc": "n = 10", "stdin": "tests/byseven_input_4.txt" }
+      ]
+    },
+    "recurse": {
+      "tests": [
+        { "desc": "n = 0",  "stdin": "tests/recurse_input_0.txt" },
+        { "desc": "n = 2",  "stdin": "tests/recurse_input_1.txt" },
+        { "desc": "n = 4",  "stdin": "tests/recurse_input_2.txt" },
+        { "desc": "n = 7",  "stdin": "tests/recurse_input_3.txt" }
+      ]
+    },
+    "PizzaCalc": {
+      "diff": "float", 
+      "tests": [
+        { "desc": "One pizza",                     "stdin": "tests/PizzaCalc_input_0.txt"},
+        { "desc": "Two pizzas, in order",          "stdin": "tests/PizzaCalc_input_1.txt"},
+        { "desc": "Two pizzas, out of order",      "stdin": "tests/PizzaCalc_input_2.txt"},
+        { "desc": "Six pizzas",                    "stdin": "tests/PizzaCalc_input_3.txt"},
+        { "desc": "Don't print after DONE",        "stdin": "tests/PizzaCalc_input_4.txt"},
+        { "desc": "Check for 0.00 in diameter",    "stdin": "tests/PizzaCalc_input_5.txt"},
+        { "desc": "Check for 0.00 in price",       "stdin": "tests/PizzaCalc_input_6.txt"},
+        { "desc": "100 pizzas",                    "stdin": "tests/PizzaCalc_input_7.txt"}
+      ]
+    }
+  }
+}
+

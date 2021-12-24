@@ -1,0 +1,4 @@
+DominosLarge 19.26634026
+DominosMedium 16.17987633
+EnzosLarge 10.05812550
+EnzosMedium 9.06050873

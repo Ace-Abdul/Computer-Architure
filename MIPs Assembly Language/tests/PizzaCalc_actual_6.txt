@@ -1,0 +1,6 @@
+DominosLarge 19.26634026
+EnzosLarge 10.05812550
+EnzosMedium 9.06050873
+EnzosSmall 7.54485226
+FakePizza 0.00000000
+ScamPizza 0.00000000

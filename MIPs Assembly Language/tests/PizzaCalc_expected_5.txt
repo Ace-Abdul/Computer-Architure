@@ -1,0 +1,6 @@
+DominosLarge 19.26634026
+EnzosLarge 10.05812550
+EnzosMedium 9.06050873
+EnzosPersonal 6.32026434
+DominosMathematicalPoint 0.00000000
+EnzosSingularity 0.00000000
