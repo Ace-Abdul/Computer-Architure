@@ -1,0 +1,121 @@
+{
+  "mode": "logisim",
+  "target": "cpu.circ",
+  "timeout": 120,
+  "output_filters": ["filter_logisim_strip_blank_probes"],
+  "penalty_logisim_disallowed_components": [
+    {
+      "penalty": 0.25,
+      "components": ["Adder","BitAdder","Comparator","Counter","Negator","Register","Shift Register","Shifter","Subtractor"],
+      "ignore_subcircuits": ["memorylatch","memory_latch","memory_latch_with_stall"]
+    }
+  ],
+  "test_suites": {
+    "simple": {
+      "tests": [
+        {
+            "desc": "addi basics",
+            "args": [
+                "-c", "10",
+                "-ic", "0,reset=1:1,reset=0", 
+                "-lo", "tests/simple.imem.lgsim",
+                "-la", "tests/simple.dmem.lgsim"
+            ]
+        }
+      ]
+    },
+    "boolean": {
+      "tests": [
+        {
+            "desc": "nor, nand instructions",
+            "args": [
+                "-c", "10",
+                "-ic", "0,reset=1:1,reset=0",
+                "-lo", "tests/boolean.imem.lgsim",
+                "-la", "tests/boolean.dmem.lgsim"
+            ]
+        }
+      ]
+    },
+    "arithmetic": {
+      "tests": [
+        {
+            "desc": "addi, add, sub instructions",
+            "args": [
+                "-c", "10",
+                "-ic", "0,reset=1:1,reset=0",
+                "-lo", "tests/arithmetic.imem.lgsim",
+                "-la", "tests/arithmetic.dmem.lgsim"
+            ]
+        }
+      ]
+    },
+    "shift": {
+      "tests": [
+        {
+            "desc": "sll, srl instructions",
+            "args": [
+                "-c", "60",
+                "-ic", "0,reset=1:1,reset=0",
+                "-lo", "tests/shift.imem.lgsim",
+                "-la", "tests/shift.dmem.lgsim"
+            ]
+        }
+      ]
+    },
+    "memory": {
+      "tests": [
+        {
+            "desc": "lw, sw instructions",
+            "args": [
+                "-c", "20",
+                "-ic", "0,reset=1:1,reset=0",
+                "-lo", "tests/memory.imem.lgsim",
+                "-la", "tests/memory.dmem.lgsim"
+            ]
+        }
+      ]
+    },
+    "control": {
+      "tests": [
+        {
+            "desc": "beq, bge, jal, j, jr instructions",
+            "args": [
+                "-c", "24",
+                "-ic", "0,reset=1:1,reset=0",
+                "-lo", "tests/control.imem.lgsim",
+                "-la", "tests/control.dmem.lgsim"
+            ]
+        }
+      ]
+    },
+    "io": {
+      "tests": [
+        {
+            "desc": "input, output instructions",
+            "args": [
+                "-lo", "tests/io.imem.lgsim",
+                "-la", "tests/io.dmem.lgsim",
+                "-lk", "tests/io.buffer",
+                "-c", "20",
+                "-tty", "full"
+            ]
+        }
+      ]
+    },
+    "recurse": {
+      "tests": [
+        {
+            "desc": "recursive fibonacci",
+            "args": [
+                "-c", "175",
+                "-ic", "0,reset=1:1,reset=0",
+                "-lo", "tests/recurse.imem.lgsim",
+                "-la", "tests/recurse.dmem.lgsim"
+            ],
+            "timeout": 180
+        }
+      ]
+    }
+  }
+}
